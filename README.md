@@ -1,7 +1,7 @@
 # Node Service Boilerplate
 The no bullsh*t way to start a fresh ES7 nodejs project. Stop worring about setup and just build the damn thing.
 
-(This is not a boilerplate for React. I suggest using create-react-app);
+(This is not a boilerplate for React. I suggest using create-react-app)
 
 ```bash
 #Clone boilerplate code into my_service directory
