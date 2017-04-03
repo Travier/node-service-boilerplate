@@ -4,7 +4,6 @@ class Service {
   }
 
   run() {
-    let name = this.name
     let message = `Service:${this.name} up and running!`;
     console.log(message);
   }
