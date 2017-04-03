@@ -3,23 +3,34 @@ The no bullsh*t way to start a fresh ES7 nodejs project. Stop worring about setu
 
 (This is not a boilerplate for React. I suggest using create-react-app)
 
+Clone boilerplate code into my_service directory
 ```bash
-#Clone boilerplate code into my_service directory
 git clone https://github.com/Travier/node-service-boilerplate.git my_service
-
-#CD into new service directory
+```
+CD into new service directory
+```bash
 cd my_service
+```
 
-#Install dependencies with yarn
+Install dependencies with yarn
+```bash
 yarn install
+```
 
-#Compile ES7 Code and output to /dist
+Compile ES7 Code and output to /dist
+```bash
 yarn run build
-#OR build:watch to wait for file changes before compiling
-yarn run build:watch
+```
 
-#Run service
+Or build:watch to wait for file changes before compiling
+```bash
+yarn run build:watch
+```
+Run service
+```bash
 node dist/index.js
-#OR
+```
+Or
+```bash
 yarn run service
 ```
