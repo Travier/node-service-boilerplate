@@ -4,10 +4,16 @@ class Service {
   }
 
   run() {
-    let message = `Service:${this.name} up and running!`;
+    let message = `${this.name} service up and running!`;
     console.log(message);
   }
 }
 
-var service = new Service("API Server");
-service.run();
+var services = [];
+services.push(new Service("Analytics"));
+services.push(new Service("API"));
+services.push(new Service("Web"));
+
+services.forEach((service) => {
+  service.run();
+});
