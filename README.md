@@ -13,7 +13,7 @@ yarn install
 
 #Compile ES7 Code and output to /dist
 yarn run build
-or
+#Or build:watch to wait for file changes before compiling
 yarn run build:watch 
 
 #Run service
