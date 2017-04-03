@@ -1,0 +1,17 @@
+{
+  "name": "node-service-boilerplate",
+  "version": "0.0.1",
+  "description": "An ES7 ready boilerplate for basic node services",
+  "main": "dist/index.js",
+  "author": "travier",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/babel -d ./dist ./src",
+    "build:watch": "./node_modules/.bin/babel -w src/ -d ./dist ./src",
+    "dist:purge": "rm -rf ./dist"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0"
+  }
+}
