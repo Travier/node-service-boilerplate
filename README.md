@@ -1,5 +1,7 @@
 # Node Service Boilerplate
-An ES7 ready boilerplate for basic node services.
+The no bullsh*t way to start a fresh ES7 nodejs project. Stop worring about setup and just build the damn thing.
+
+(This is not a boilerplate for React. I suggest using create-react-app);
 
 ```bash
 #Clone boilerplate code into my_service directory
@@ -13,9 +15,11 @@ yarn install
 
 #Compile ES7 Code and output to /dist
 yarn run build
-#Or build:watch to wait for file changes before compiling
-yarn run build:watch 
+#OR build:watch to wait for file changes before compiling
+yarn run build:watch
 
 #Run service
 node dist/index.js
+#OR
+yarn run service
 ```

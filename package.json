@@ -6,9 +6,9 @@
   "author": "travier",
   "license": "MIT",
   "scripts": {
+    "service": "yarn run build && node dist/index.js",
     "build": "./node_modules/.bin/babel -d ./dist ./src",
-    "build:watch": "./node_modules/.bin/babel -w src/ -d ./dist ./src",
-    "dist:purge": "rm -rf ./dist"
+    "build:watch": "./node_modules/.bin/babel -w src/ -d ./dist ./src"
   },
   "dependencies": {
     "babel-cli": "^6.24.0",
